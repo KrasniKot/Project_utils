@@ -4,7 +4,7 @@ HOST = 'localhost'
 PORT = 8080
 
 def handle_request(client_socket):
-    """ Gets, process the recieved socket and sends the response """
+    """ Gets, processes the recieved socket and sends the response """
 
     request_data = client_socket.recv(1024).decode('utf-8')
     if not request_data:
