@@ -1,5 +1,5 @@
 # Project
-This repository contains utils used for a different proyect:
+This repository contains utils used for a different proyect.
 
 
 ## Server
